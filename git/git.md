@@ -85,7 +85,8 @@ $ git branch
 ```
 # 把文件添加到版本库(repository)
 
->`工作区`有一个隐藏目录（`.git`）就是版本库。版本库存有stage或index`暂存区`，还有Git自动创建的master`分支`，以及指向master的HEAD`指针`。![git](./git.jpg)  
+>`工作区`有一个隐藏目录（`.git`）就是版本库。版本库存有stage或index`暂存区`，还有Git自动创建的master`分支`，以及指向master的HEAD`指针`。
+>![git](./git.jpg)  
 1. 文件必须放置在`工作区`（在子目录也行）。
 2. `$ git add <file>` 把`工作区`文件添加到`暂存区`：
 >为了避免出错`<file>`尽可能明确路径与文件后缀。  
