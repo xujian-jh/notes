@@ -1,4 +1,4 @@
-学习笔记：浏览[廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，明白分布式版本控制系统git是非常实用的工具，深入学习十分有必要！
+学习笔记：浏览[廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，明白分布式版本控制系统git是非常实用的工具，[git官网深入学习](https://git-scm.com/book/zh/v2)十分有必要！
 
 # Git的诞生
 
@@ -20,27 +20,34 @@ Git迅速成为最流行的分布式版本控制系统。尤其2008年GitHub网�
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ```
-注意 : `git config` 命令的 `--global` 参数表示全局设置，这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+注意 : `git config`命令的`--global`参数表示全局设置，这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
 
-# 创建Git仓库（跟踪文件管理版本）
+# Git专用术语
 
-1. 创建一个目录
+Workspace：工作区（`.git`目录除外）  
+Index/Stage：索引/暂存区（不可见）  
+Repository：本地仓库（工作区下`.git`目录）  
+Remote：远程仓库  
+
+# 创建工作区
+
+1. 新建一个目录
 ```
 $ mkdir toolDocument
 $ cd toolDocument
 $ pwd  
 /c/Users/sword/toolDocument
 ```
-- `mkdir <directory>` 创建文件夹
+- `mkdir <directory>` 新建文件夹
 - `cd <directory>` 进入文件夹
-- `pwd` 查看当前目录
-- 请确保目录名（包括父目录）不包含中文，避免遇到各种莫名其妙的问题。
-2. 通过 `git init` 把当前目录变成Git仓库：
+- `pwd` 查看当前目录路径
+- 请确保目录名（包括父目录）不包含中文，避免乱码问题。
+2. 通过 `git init` 把当前目录变成工作区：
 ```
 $ git init
 Initialized empty Git repository in /c/Users/sword/toolDocument/.git/
 ```
-注意：当前目录下多了一个 `.git` 的目录。这个目录是Git用来跟踪管理的版本库，没事千万不要手动修改这个目录里面的文件，不然改乱就把Git仓库给破坏了。
+注意：当前目录下多了一个`.git`目录，这是Git用来跟踪管理版本的本地仓库，禁止手动修改这个目录里面的文件。
 
 # 常用查询命令汇总
 
@@ -83,43 +90,43 @@ $ git branch
 * dev
   master
 ```
-# 把文件添加到版本库(repository)
+# 本地仓库生成版本
 
->`工作区`有一个隐藏目录（`.git`）就是版本库。版本库存有stage或index`暂存区`，还有Git自动创建的master`分支`，以及指向master的HEAD`指针`。
->![git](./git.jpg)  
-1. 文件必须放置在`工作区`（在子目录也行）。
-2. `$ git add <file>` 把`工作区`文件添加到`暂存区`：
->为了避免出错`<file>`尽可能明确路径与文件后缀。  
->Unix的哲学“没有消息就是好消息”，说明添加成功。  
->`$ git add <file>`可反复使用，添加多个文件。
-3. `$ git commit -m <message>` 把`暂存区`文件提交：
+1. 文件必须放置在工作区（在子目录也行）。
+2. `$ git add <file>`把工作区文件添加到暂存区：
+- 为了避免出错`<file>`尽可能明确路径与文件后缀。  
+- Unix的哲学“没有消息就是好消息”，说明添加成功。  
+- `$ git add <file>`可反复使用，添加多个文件。
+3. `$ git commit -m <message>`把暂存区文件一次性提交：
 ```
 $ git commit -m "add readme.txt"
 ```
->`-m <message>`输入的是本次提交的说明。  
->生成的`commit-id`是一个SHA1计算出来的非常大的数字，用十六进制表示。  
+- `-m <message>`输入的是本次提交的说明。  
+- 生成的`commit-id`是一个SHA1计算出来的非常大的数字，用十六进制表示。  
+- Git通常使用`HEAD指针`指向`master分支`。  
+![git](./git.jpg)  
 4. 注意事项：
-- 所有的版本控制系统，只能跟踪文本文件的改动，Git也一样。`文本文件`包括.txt .md .html .json .js .css 等程序代码。`非文本文件`也能由版本控制系统管理，但没法跟踪文件的变化。
-- 建议使用标准的`UTF-8编码`，被所有平台所支持。
+- 所有的版本控制系统，只能跟踪文本文件的修动，Git也一样。文本文件包括.txt .md .html .json .js .css 等程序代码。非文本文件也能由版本控制系统管理，但没法跟踪文件的变化。
+- 建议使用标准的UTF-8编码，中文被所有平台所支持。
 - 避免使用Windows自带的记事本。它保存文件自带BOM（UTF-8 with BOM），自作聪明在每个文件开头添加了0xefbbbf（十六进制）的字符，带来很多莫名其妙的问题。
 
-# 在`commit-id`之间穿梭（`工作区`恢复到`HEAD指针`状态）
+# 在`commit-id`之间穿梭（工作区恢复到指定版本）
 
 1. `$ git reset --hard commit_id`
 2. `$ git reset --hard HEAD^` 回退到当前版本上一个
 3. `$ git reset --hard HEAD^^` 回退到当前版本上上一个
 4. `$ git reset --hard HEAD~99` 回退到当前版本之前99个
->注意：HEAD`指针`指向的版本就是当前版本。  
+>注意：`HEAD指针`指向的版本就是当前版本。  
 
-# 依据`暂存区`文件撤销修改
+# 依据暂存区撤销修改
 
-1. `$ git checkout -- <file>` 命令`工作区`恢复到`暂存区`状态。
-2. `$ git reset HEAD <file>` 命令`暂存区`恢复到`HEAD指针`状态。
+1. `$ git checkout -- <file>` 工作区恢复到暂存区版本。
+2. `$ git reset HEAD <file>` 暂存区恢复到当前版本。
 
 # 删除文件
 
-1. `$ rm <file>` 命令从`工作区`删掉文件。
-2. `$ git rm <file>` 命令从`暂存区`删除文件。
+1. `$ rm <file>` 工作区删掉文件（仍然被追踪）。
+2. `$ git rm <file>` 暂存区删除文件（不再被追踪）。
 
 # 远程仓库
 
@@ -164,7 +171,9 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 # 本地库`git remote`远程关联
 
 - `$ git remote add <name> <url>`
->`<url>`默认使用`git@server-name:path/repo-name.git`协议`ssh`。也可以使用`https`，但是速度稍慢，而且每次推送都必须输入口令。
+>`<url>`SSH协议`ssh://user@server/project.git`或者scp式的写法`user@server/project.git`，推荐公司网络创建git用户采用公钥授权访问。  
+>`<url>`HTTPS协议`https://example.com/project.git`，网络传输速度最慢，而且每次推送都必须输入口令。  
+>`<url>`Git协议`git://`使用与SSH相同的数据传输机制，但是省去了加密和授权的开销，网络传输速度最快，监听特定端口（9418），开源首选。  
 ```
 $ git remote add github git@github.com:xujian-jh/toolDocument.git
 $ git remote add gitee git@gitee.com:xujian-jh/tool.git
@@ -181,9 +190,11 @@ $ git remote add gitee git@gitee.com:xujian-jh/tool.git
 
 # 最佳实践：先拉（pull）后推（push）
 
-1. `$ git pull <remote> <branch>`
->如果git pull提示no tracking information，用命令`$ git branch --set-upstream-to=origin/dev dev`设置dev和origin/dev的链接。  
->`$ git pull` 拥有默认设置后可简化操作。  
+1. `$ git pull [<options>] [<repository> [<refspec>…​]]`
+>如果简化操作`$ git pull` 提示`no tracking information`，用命令`$ git branch --set-upstream-to=origin/<branch> <branch>`设置默认的链接。  
+>`$ git pull`相当于`$ git fetch` 跟着一个`$ git merge FETCH_HEAD`。  
+>如果发生了冲突，可以使用`$ git reset --merge`进行回退。
+>`[options]` : –ff | –no-ff | –ff-only 这几个选项是说合并时是否开启fast-forward。  
 2. 本地库手动修改，解决冲突，提交生成新`commit-id`。
 3. `$ git push <name> <branch>`
 - `$ git push -u <name> <branch> -f` 强制仅适合第一次推送（覆盖版本冲突）  
@@ -235,16 +246,16 @@ Deleted branch dev (was b17d20e).
 - Feature分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发。
 - 名字命名（人员）分支
 
-# 最佳实践：stash“储藏”
+# 最佳实践：stash“隐藏”
 
-1. `$ git stash`“储藏”工作现场
+1. `$ git stash`“隐藏”工作现场
 ```
 $ git stash
 Saved working directory and index state WIP on dev: f52c633 add merge
 ```
-- 仅仅“储藏”被Git管理的文件。
+- 仅仅“隐藏”被Git管理的文件。
 - 用`$ git status`查看工作区就是干净的。
-2. `$ git stash list`查看“储藏”
+2. `$ git stash list`查看“隐藏”
 ```
 $ git stash list
 stash@{0}: WIP on dev: f52c633 add merge
