@@ -57,28 +57,28 @@ Initialized empty Git repository in /c/Users/sword/toolDocument/.git/
 - 修改跟踪的文件，已加入`暂存区`，没有提交生成 `commit-id` 。
 - 工作台是干净的（工作区文件与当前commit-id文件一致）。
 2. `$ cat <file>` 查看文件内容。
->注意：推荐文件带后缀，便于区分（文件与文件夹）  
+- 注意：推荐文件带后缀，便于区分（文件与文件夹）  
 3. 查看文件修改的内容（difference）。
->`$ git diff <file>`查看文件`工作区`和`暂存区`的difference。  
->`$ git diff HEAD -- <file>`查看文件`工作区`和`HEAD指针`（当前版本）的difference。
+- `$ git diff <file>`查看文件`工作区`和`暂存区`的difference。  
+- `$ git diff HEAD -- <file>`查看文件`工作区`和`HEAD指针`（当前版本）的difference。
 4. 查看`暂存区`提交日志。
->`$ git log`查看详细的提交日志。  
->`$ git log --pretty=oneline`查看精简的。  
->`$ git log --graph`看到分支合并图。  
->`$ git log  --abbrev-commit`精简`commit-id`。  
+- `$ git log`查看详细的提交日志。  
+- `$ git log --pretty=oneline`查看精简的。  
+- `$ git log --graph`看到分支合并图。  
+- `$ git log  --abbrev-commit`精简`commit-id`。  
 5. 查看`HEAD`指针裁决日志。
->`$ git reflog`  
+- `$ git reflog`  
 6. 查看本地库与远程库关联。
->`$ git remote (-v | --verbose)`  
+- `$ git remote (-v | --verbose)`  
 7. 查看当前目录内容。
->`$ ls`  
+- `$ ls`  
 8. 查看不同目录。
->`$ cd /` 回到用户根目录  
->`$ cd [~]` 回到用户主目录  
->`$ cd ..` 返回上一级目录  
->`$ cd ../..` 返回上两级目录  
->`$ cd -` 返回进入此目录之前所在目录  
->`$ cd <directory>` 向前进入目录  
+- `$ cd /` 回到用户根目录  
+- `$ cd [~]` 回到用户主目录  
+- `$ cd ..` 返回上一级目录  
+- `$ cd ../..` 返回上两级目录  
+- `$ cd -` 返回进入此目录之前所在目录  
+- `$ cd <directory>` 向前进入目录  
 9. 查看当前目录路径
 ```
 $ pwd
@@ -116,7 +116,7 @@ $ git commit -m "add readme.txt"
 2. `$ git reset --hard HEAD^` 回退到当前版本上一个
 3. `$ git reset --hard HEAD^^` 回退到当前版本上上一个
 4. `$ git reset --hard HEAD~99` 回退到当前版本之前99个
->注意：`HEAD指针`指向的版本就是当前版本。  
+- 注意：`HEAD指针`指向的版本就是当前版本。  
 
 # 依据暂存区撤销修改
 
@@ -143,7 +143,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 - 进入用户主目录。
 - 创建SSH Key时设置邮件地址。
 - 然后一路回车，使用默认值即可（由于这个Key并非机密用途，所以无需设置密码保存）。
->如果一切顺利，可以在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥（不能泄露出去），id_rsa.pub是公钥（可以放心地告诉任何人）。
+- 如果一切顺利，可以在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥（不能泄露出去），id_rsa.pub是公钥（可以放心地告诉任何人）。
 2. 远程仓库部署id_rsa.pub公钥
 >点击登陆 => Settings => SSH and GPG keys => New SSH key  
 >![sshkey](./sshkey.png)  
@@ -161,19 +161,19 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 # 最佳实践：克隆（clone）
 
 大家克隆同一个远程库，本地库修改，生成版本推送到远程库，实现多人协作。
->```  
->$ cd ~  
->$ git clone <url>
->```  
+```  
+$ cd ~  
+$ git clone <url>
+```  
 1. 进入用户主目录。
 2. 克隆远程库，创建本地库，远程关联（默认名字 `origin`）。
 
 # 本地库`git remote`远程关联
 
 - `$ git remote add <name> <url>`
->`<url>`SSH协议`ssh://user@server/project.git`或者scp式的写法`user@server/project.git`，推荐公司网络创建git用户采用公钥授权访问。  
->`<url>`HTTPS协议`https://example.com/project.git`，网络传输速度最慢，而且每次推送都必须输入口令。  
->`<url>`Git协议`git://`使用与SSH相同的数据传输机制，但是省去了加密和授权的开销，网络传输速度最快，监听特定端口（9418），开源首选。  
+1. `<url>`SSH协议`ssh://user@server/project.git`或者scp式的写法`user@server/project.git`，推荐公司网络创建git用户采用公钥授权访问。  
+2. `<url>`HTTPS协议`https://example.com/project.git`，网络传输速度最慢，而且每次推送都必须输入口令。  
+3. `<url>`Git协议`git://`使用与SSH相同的数据传输机制，但是省去了加密和授权的开销，网络传输速度最快，监听特定端口（9418），开源首选。  
 ```
 $ git remote add github git@github.com:xujian-jh/toolDocument.git
 $ git remote add gitee git@gitee.com:xujian-jh/tool.git
@@ -191,10 +191,10 @@ $ git remote add gitee git@gitee.com:xujian-jh/tool.git
 # 最佳实践：先拉（pull）后推（push）
 
 1. `$ git pull [<options>] [<repository> [<refspec>…​]]`
->如果简化操作`$ git pull` 提示`no tracking information`，用命令`$ git branch --set-upstream-to=origin/<branch> <branch>`设置默认的链接。  
->`$ git pull`相当于`$ git fetch` 跟着一个`$ git merge FETCH_HEAD`。  
->如果发生了冲突，可以使用`$ git reset --merge`进行回退。
->`[options]` : –ff | –no-ff | –ff-only 这几个选项是说合并时是否开启fast-forward。  
+- 如果简化操作`$ git pull` 提示`no tracking information`，用命令`$ git branch --set-upstream-to=origin/<branch> <branch>`设置默认的链接。  
+- `$ git pull`相当于`$ git fetch` 跟着一个`$ git merge FETCH_HEAD`。  
+- 如果发生了冲突，可以使用`$ git reset --merge`进行回退。
+- `[options]` : –ff | –no-ff | –ff-only 这几个选项是说合并时是否开启fast-forward。  
 2. 本地库手动修改，解决冲突，提交生成新`commit-id`。
 3. `$ git push <name> <branch>`
 - `$ git push -u <name> <branch> -f` 强制仅适合第一次推送（覆盖版本冲突）  
@@ -208,13 +208,13 @@ $ git remote add gitee git@gitee.com:xujian-jh/tool.git
 $ git branch dev
 $ git checkout dev
 ```
->`$ git checkout -b dev origin/dev`创建远程origin的dev分支到本地
+- `$ git checkout -b dev origin/dev`创建远程origin的dev分支到本地
 2. dev分支管理开发过程
 ```
 $ git add <file>
 $ git commit -m <message>
 ```
->`$ git push origin dev`及时把dev分支push到远程
+- `$ git push origin dev`及时把dev分支push到远程
 3. 把dev分支的工作成果合并到master分支
 ```
 $ git checkout master
@@ -232,8 +232,8 @@ Fast-forward
 $ git branch -d dev
 Deleted branch dev (was b17d20e).
 ```
->如果分支没有合并时要强行删除，需要使用大写的-D参数。  
->`$ git branch -D dev`
+- 如果分支没有合并时要强行删除，需要使用大写的-D参数。  
+`$ git branch -D dev`
 
 # 分支管理策略
 
@@ -293,20 +293,19 @@ $ sudo apt-get install git
 $ sudo adduser git
 ```
 3. 创建证书登录：  
->收集所有需要登录的用户的公钥，就是他们自己的id_rsa.pub文件，把所有公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个。  
+- 收集所有需要登录的用户的公钥，就是他们自己的id_rsa.pub文件，把所有公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个。  
 4. 初始化Git仓库
->先选定一个目录作为Git仓库，假定是/srv/sample.git，在/srv目录下输入命令：
+- 先选定一个目录作为Git仓库，假定是/srv/sample.git，在/srv目录下输入命令：
 ```
 $ sudo git init --bare sample.git
 ```
->Git就会创建一个裸仓库，裸仓库没有工作区，因为服务器上的Git仓库纯粹是为了共享，所以不让用户直接登录到服务器上去改工作区，并且服务器上的Git仓库通常都以.git结尾。  
+- Git就会创建一个裸仓库，裸仓库没有工作区，因为服务器上的Git仓库纯粹是为了共享，所以不让用户直接登录到服务器上去改工作区，并且服务器上的Git仓库通常都以.git结尾。  
 5. 把owner改为git：
 ```
 $ sudo chown -R git:git sample.git
 ```
-6. 禁用shell登录：
-
->出于安全考虑，第二步创建的git用户不允许登录shell，这可以通过编辑/etc/passwd文件完成。  
+6. 禁用shell登录：  
+出于安全考虑，第二步创建的git用户不允许登录shell，这可以通过编辑/etc/passwd文件完成。  
 >找到类似下面的一行：
 ```
 git:x:1001:1001:,,,:/home/git:/bin/bash
@@ -322,4 +321,4 @@ $ git clone git@server:/srv/sample.git
 Cloning into 'sample'...
 warning: You appear to have cloned an empty repository.
 ```
->在各自的电脑上克隆，剩下的推送就简单了。
+在各自的电脑上克隆，剩下的推送就简单了。
