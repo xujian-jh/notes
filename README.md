@@ -1,6 +1,8 @@
 # notes
 
-Reading is a process of knowing oneself and the world . 
+Reading is a process of knowing oneself and the world .  
+Learning, personal growth, making friends and sharing the things you love.
+Follow your heart and spread the love .  
 
 # table of contents
 
