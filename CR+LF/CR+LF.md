@@ -9,12 +9,12 @@
 - 研发人员定义两个字符来实现换行。
 - 两个字符的 ASCII 码  
 
-![none](./none.PNG)
+![asc](./asc.jpg)
 
 # 分叉
 
 随着技术的发展，计算机诞生，科学家认为在每行结尾加两个字符太浪费。分歧出现：
-- LF+CR（Microsoft 的选择，即 " \r\n " ）
+- CR+LF（Microsoft 的选择，即 " \r\n " ）
 - LF（Linux 的选择，即 " \n " ）
 - CR（Apple 的选择，即 " \r " ）
 
