@@ -1,4 +1,4 @@
-学习笔记：浏览[廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，明白分布式版本控制系统git是非常实用的工具，[git官网深入学习](https://git-scm.com/book/zh/v2)十分有必要！
+阅读笔记：浏览[廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，明白分布式版本控制系统git是非常实用的工具，[git官网深入学习](https://git-scm.com/book/zh/v2)十分有必要！
 
 # Git的诞生
 
