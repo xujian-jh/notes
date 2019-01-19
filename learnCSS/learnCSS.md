@@ -132,7 +132,7 @@ DevTools可以看见哪些CSS不适用于元素。
 
 # 变形和动画（Transforms And Animation）
 
-区分设置动画方法的性能（按序降低）：CSS，JavaScript，SVG，Web Animation API。
+区分设置动画方法（按顺序性能降低但功能增强）：CSS，javascript 原生库 WAAPI（Web Animation API），javascript 三方库 WebGL（Web Graphics Library）。
 
 CSS Transitions 在不影响正常文档流的情况下改变作用内容的位置，这是最简单且性能最佳的方法。
 - transform-origin  
