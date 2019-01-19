@@ -1,1 +1,0 @@
-阅读笔记：JavaScript是单线程执行，异步IO操作才是生存之道，ES7是大势所趋(async/await简化异步IO操作逻辑）。推荐koa
