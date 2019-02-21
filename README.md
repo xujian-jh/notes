@@ -20,3 +20,5 @@ Follow your heart and spread the love .
 - [HTML 渲染（Rendering）](./html/htmlRendering.md)
 - [family](./family/family.md)
 - [Learning JavaScript Design Patterns](./design/patterns.md)
+- [WebGL 基础](./WebGL/WebGL.md)
+- [偏见（bias）](bias/bias.md)
