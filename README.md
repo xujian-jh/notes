@@ -22,3 +22,6 @@ Follow your heart and spread the love .
 - [Learning JavaScript Design Patterns](./design/patterns.md)
 - [WebGL 基础](./WebGL/WebGL.md)
 - [偏见（bias）](bias/bias.md)
+- [lit-html](./lit-html/lit-html.md)
+- [what is amazon ?](https://zackkanter.com/2019/03/13/what-is-amazon/)
+- [The JavaScript Array object](.\JS\arrayMethods.md)
