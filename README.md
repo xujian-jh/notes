@@ -11,7 +11,7 @@
 
 - [Natural Siences]()
 - [Social Sciences]()
-- [Noetic Sciences](./noeticSciences/noeticSciences.md)
+- [Noetic Sciences](./noeticSciences/intro.md)
 - [Mathematics Sciences]()
 - [Somatic Sciences]()
 - [System Sciences]()

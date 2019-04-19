@@ -24,3 +24,10 @@
 - 由内省法研究思维。
 - 据对思维的模拟研究思维的模式。
 - 在方法论层次上的历史和逻辑相一致的方法、系统方法、综合方法等。
+
+
+#### Vertical three levels
+
+- [Basic science](./basicScience/catalogBS.md)
+- [Technical science](./technicalScience/catalogTS.md)
+- [Engineering technology](./engineeringTechnology/catalogET.md)
