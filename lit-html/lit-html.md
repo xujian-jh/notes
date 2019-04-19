@@ -113,8 +113,8 @@ const myTemplate3 = (data) => html`<my-list .listItems=${data.items}></my-list>`
 ```js
 const myTemplate = () => html`<button @click=${clickHandler}>Click Me!</button>`;
 ```
-7. 嵌套模板
-- 
+7. 组合模板
+- 嵌套
 ```js
 const myHeader = html`<h1>Header</h1>`;
 // some complex view
@@ -125,8 +125,7 @@ const myPage = (data) => html`
   ${myListView(data.items)}
 `;
 ```
-8. 条件模板
-- 三元表达式是添加内联条件的好方法
+- 条件（三元表达式是添加内联条件的好方法）
 ```js
 html`
   ${user.isloggedIn
@@ -149,8 +148,7 @@ html`
   ${getUserMessage()}
 `
 ```
-9. 重复模板
-- 使用 `Array.map` 将数据列表转换为模板列表
+- 重复（使用 `Array.map` 将数据列表转换为模板列表）
 ```js
 html`
   <ul>
