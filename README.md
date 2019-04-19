@@ -9,12 +9,12 @@
 
 #### Horizontal six departments
 
-- [Natural Siences]
-- [Social Sciences]
-- [Noetic Sciences](./noeticSciences/intro.md)
-- [Mathematics Sciences]
-- [Somatic Sciences]
-- [System Sciences]
+- [Natural Sience]
+- [Social Science]
+- [Mathematics Science]
+- [Noetic Science](./noeticScience/intro.md)
+- [System Science]
+- [Somatic Science]
 
 #### Vertical three levels
 
