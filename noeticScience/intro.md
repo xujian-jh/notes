@@ -1,3 +1,5 @@
+# [Noetic Science](https://baike.baidu.com/item/%E6%80%9D%E7%BB%B4%E7%A7%91%E5%AD%A6/5378275?fr=aladdin)
+
 #### Name origin
 
 ```
@@ -10,10 +12,4 @@
 --- 钱学森
 ```
 
-#### [cognitive science](https://en.wikipedia.org/wiki/Cognitive_science)
-
-#### Vertical three levels
-
-- [Basic science](./basicScience/catalogBS.md)
-- [Technical science](./technicalScience/catalogTS.md)
-- [Engineering technology](./engineeringTechnology/catalogET.md)
+#### Alisa: [Cognitive Science](https://en.wikipedia.org/wiki/Cognitive_science)

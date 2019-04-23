@@ -5,19 +5,8 @@
 - Accumulate and build own knowledge tree.
 - Learning, personal growth, making friends and sharing the things your love.
 
-# Comprehensive Development of Modern S&T and Versatile Personal Education
+# Comprehensive Development of Modern S&T
 
-#### Horizontal six departments
+![](./S&T.png)
 
-- [Natural Sience]
-- [Social Science]
-- [Mathematics Science]
-- [Noetic Science](./noeticScience/intro.md)
-- [System Science]
-- [Somatic Science]
-
-#### Vertical three levels
-
-- Basic science
-- Technical science
-- Engineering technology
+# Versatile Personal Education
