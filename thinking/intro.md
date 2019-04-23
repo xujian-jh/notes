@@ -12,4 +12,4 @@
 --- 钱学森
 ```
 
-#### Alisa : [Cognitive Science](https://en.wikipedia.org/wiki/Cognitive_science)
+#### Alias: [Cognitive Science](https://en.wikipedia.org/wiki/Cognitive_science)
