@@ -1,4 +1,4 @@
-# [Thinking Science]
+# [NS] (Noetic Science)
 
 #### Name origin
 
@@ -7,7 +7,7 @@
 #### Alias: [Cognitive Science]
 
 
-[Thinking Science]:https://baike.baidu.com/item/%E6%80%9D%E7%BB%B4%E7%A7%91%E5%AD%A6/5378275?fr=aladdin
+[NS]:https://baike.baidu.com/item/%E6%80%9D%E7%BB%B4%E7%A7%91%E5%AD%A6/5378275?fr=aladdin
 
 [钱学森]:https://baike.baidu.com/item/%E9%92%B1%E5%AD%A6%E6%A3%AE/26105
 
