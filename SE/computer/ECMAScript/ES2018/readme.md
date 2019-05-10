@@ -1,6 +1,6 @@
 # [What’s New in ES2018]
 
-#### Asynchronous Iteration
+## Asynchronous Iteration
 
 - `async/await` keyword run asynchronous operations in series
   - `for … of` loops
@@ -16,7 +16,7 @@ async function process(array) {
 }
 ```
 
-#### Promise.finally()
+## Promise.finally()
 
 - The `.finally()` prototype allows you to specify final logic in one place
 
@@ -34,7 +34,7 @@ function doSomething() {
 }
 ```
 
-#### The three-dot (...) notation
+## The three-dot (...) notation
 
 ES2015 introduced the rest parameters and spread operators. The three-dot (...) notation applied to array operations only.
 
@@ -65,7 +65,7 @@ const obj2 = { ...obj1, z: 26 };
 // obj2 is { a: 1, b: 2, c: 3, z: 26 }
 ```
 
-#### Regular Expression
+## Regular Expression
 
 1. Named Capture Groups
 
@@ -157,7 +157,7 @@ const reGreekSymbol = /\P{Script=Greek}/u;
 reGreekSymbol.test('π'); // false
 ```
 
-#### [Template Literals Tweak]
+## [Template Literals Tweak]
 
 1. Tagged templates function
 
