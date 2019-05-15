@@ -102,7 +102,7 @@ var obj = {
 
 ## Template Strings
 
-- Template strings provide syntactic sugar for constructing strings. 
+- Template strings provide syntactic sugar for constructing strings.
 
 ```js
 // Basic literal string creation
@@ -303,7 +303,7 @@ for(var c of "𠮷") {
 
 ## Modules
 
-- Language-level support for modules for component definition. 
+- Language-level support for modules for component definition.
   - Codifies patterns from popular JavaScript module loaders (AMD, CommonJS).
   - Runtime behaviour defined by a host-defined default loader.
   - Implicitly async model – no code executes until requested modules are available and processed.
@@ -323,10 +323,32 @@ import exp, {pi, e} from "lib/mathplusplus";
 console.log("e^π = " + exp(pi));
 ```
 
-## 
+## Map + Set + WeakMap + WeakSet
+
+- WeakMaps provides leak-free object-key’d side tables.
 
 ```js
+// Sets
+var s = new Set();
+s.add("hello").add("goodbye").add("hello");
+s.size === 2;
+s.has("hello") === true;
 
+// Maps
+var m = new Map();
+m.set("hello", 42);
+m.set(s, 34);
+m.get(s) == 34;
+
+// Weak Maps
+var wm = new WeakMap();
+wm.set(s, { extra: 42 });
+wm.size === undefined
+
+// Weak Sets
+var ws = new WeakSet();
+ws.add({ data: 42 });
+// Because the added object has no other references, it will not be held in the set
 ```
 
 ---
