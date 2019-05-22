@@ -16,9 +16,9 @@ async function doSomething() {
 
 ## Object
 
-1. Object.values()
+### Object.values()
 
-- extract an array of values from name–value pairs within an object. 
+- extract an array of values from name–value pairs within an object.
 
 ```js
 const myObject = {
@@ -31,7 +31,7 @@ const values = Object.values(myObject);
 // [ 1, 'Two', [3,3,3] ]
 ```
 
-2. Object.entries()
+### Object.entries()
 
 - returns an array from an object containing name–value pairs.
 - Each value in the returned array is a sub-array containing the name (index 0) and value (index 1).
@@ -53,10 +53,10 @@ const entries = Object.entries(myObject);
 */
 ```
 
-3. Object.getOwnPropertyDescriptors()
+### Object.getOwnPropertyDescriptors()
 
-- returns another object containing all property descriptors (.value, .writable, .get, .set, .configurable, .enumerable).
-- The properties are directly present on an object and not in the object’s prototype chain. 
+- Returns another object containing all property descriptors (.value, .writable, .get, .set, .configurable, .enumerable).
+- The properties are directly present on an object and not in the object’s prototype chain.
 - `Object.getOwnPropertyDescriptor(object, property)` just one property descriptor.
 
 ```js
@@ -111,6 +111,6 @@ function c(one,two,three,) {};
 
 - While both objects were implemented in Chrome and Firefox, it was disabled in January 2018 in response to the Spectre vulnerability.
 
-#
+---
 
 [What’s New in ES2017]:https://www.sitepoint.com/es2017-whats-new/

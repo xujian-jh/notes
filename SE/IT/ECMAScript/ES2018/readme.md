@@ -41,7 +41,7 @@ ES2015 introduced the rest parameters and spread operators. The three-dot (...) 
 ES2018 enables similar rest/spread functionality for object destructuring as well as arrays.
 
 - Like arrays, you can only use a single rest parameter at the end of the declaration.
-  -  In addition, it only works on the top level of each object and not sub-objects.
+  - In addition, it only works on the top level of each object and not sub-objects.
 
 ```js
 restParam({
@@ -59,6 +59,7 @@ function restParam({ a, ...x }) {
 - The spread operator can be used within other objects.
   - You only get shallow copies.
   - If a property holds another object, the clone will refer to the same object.
+
 ```js
 const obj1 = { a: 1, b: 2, c: 3 };
 const obj2 = { ...obj1, z: 26 };
@@ -67,7 +68,7 @@ const obj2 = { ...obj1, z: 26 };
 
 ## Regular Expression
 
-1. Named Capture Groups
+### Named Capture Groups
 
 ```js
 const
@@ -79,7 +80,7 @@ const
 ```
 
 - ES2018 permits groups to be named using the notation `?<name>` immediately after the opening capture bracket `(`.
-  - Named captures can also be used in `replace()` methods. 
+  - Named captures can also be used in `replace()` methods.
 
 ```js
 const
@@ -97,7 +98,7 @@ const
   usDate = d.replace(reDate, '$<month>-$<day>-$<year>');
 ```
 
-2. Assertions
+### Assertions
 
 - lookahead assertions `(?=*)` inside a regular expression.
 
@@ -128,20 +129,21 @@ const
 console.log( match[0] ); // null
 ```
 
-3. ES2018 introduces `s` (dotAll) Flag
+### ES2018 introduces `s` (dotAll) Flag
 
 - A regular expression dot `.` matches any single character except line terminators.
+
 ```js
 /^.$/.test('\n'); //false
 ```
 
-- The `s` flag changes this behavior so line terminators are permitted. 
+- The `s` flag changes this behavior so line terminators are permitted.
 
 ```js
 /^.$/s.test('\n'); //true
 ```
 
-4. ES2018 adds Unicode Property Escapes
+### ES2018 adds Unicode Property Escapes
 
 - `/\p{*}/u`
 
@@ -159,7 +161,7 @@ reGreekSymbol.test('π'); // false
 
 ## [Template Literals Tweak]
 
-1. Tagged templates function
+### Tagged templates function
 
 ```js
 function foo(str) {
@@ -172,7 +174,7 @@ foo`Xyz`;
 // 'XYZ'
 ```
 
-2. `String.raw` is a built-in tagged templates function
+### `String.raw` is a built-in tagged templates function
 
 ```js
 var str = String.raw`Hi\n${2+3}!`;
@@ -185,14 +187,14 @@ str.split('').join(',');
 // 'H,i,\,n,5,!'
 ```
 
-3. ES2018 revision of illegal escape sequences
+### ES2018 revision of illegal escape sequences
 
 - Illegal escape sequences will show up as `undefined` element in the “cooked” array.
 
 ```js
-function latex(str) { 
+function latex(str) {
  return { "cooked": str[0], "raw": str.raw[0] }
-} 
+}
 
 latex`\unicode`
 
@@ -206,7 +208,7 @@ let bad = `bad escape sequence: \unicode`;
 // SyntaxError: Invalid Unicode escape sequence
 ```
 
-#
+---
 
 [What’s New in ES2018]:https://www.sitepoint.com/es2018-whats-new/
 
