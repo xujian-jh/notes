@@ -5,8 +5,8 @@
 - Accumulate and build own knowledge tree.
 - Learning, personal growth, making friends and sharing the things your love.
 
-# Comprehensive Development of Modern S&T
+## Comprehensive Development of Modern S&T
 
-![](./S&T.png)
+![S&T](./S&T.png)
 
-# Versatile Personal Education
+## Versatile Personal Education
