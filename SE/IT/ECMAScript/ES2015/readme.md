@@ -325,7 +325,10 @@ console.log("e^π = " + exp(pi));
 
 ## Map + Set + WeakMap + WeakSet
 
-- WeakMaps provides leak-free object-key’d side tables.
+- The `Map` object holds key-value pairs and remembers the original insertion order of the keys.
+- The `Set` object lets you store unique values of any type.
+- The `WeakMap` object is a collection of key/value pairs in which the keys are weakly referenced.
+- The `WeakSet` object lets you store weakly held objects in a collection.
 
 ```js
 // Sets
@@ -349,6 +352,115 @@ wm.size === undefined
 var ws = new WeakSet();
 ws.add({ data: 42 });
 // Because the added object has no other references, it will not be held in the set
+```
+
+## Proxies
+
+```js
+// Proxying a function object
+var target = function () { return "I am the target"; };
+var handler = {
+  apply: function (receiver, ...args) {
+    return "I am the proxy";
+  }
+};
+
+var p = new Proxy(target, handler);
+p() === "I am the proxy";
+```
+
+There are traps available for all of the runtime-level meta-operations:
+
+```js
+var handler =
+{
+  // target.prop
+  get: ...,
+  // target.prop = value
+  set: ...,
+  // 'prop' in target
+  has: ...,
+  // delete target.prop
+  deleteProperty: ...,
+  // target(...args)
+  apply: ...,
+  // new target(...args)
+  construct: ...,
+  // Object.getOwnPropertyDescriptor(target, 'prop')
+  getOwnPropertyDescriptor: ...,
+  // Object.defineProperty(target, 'prop', descriptor)
+  defineProperty: ...,
+  // Object.getPrototypeOf(target), Reflect.getPrototypeOf(target),
+  // target.__proto__, object.isPrototypeOf(target), object instanceof target
+  getPrototypeOf: ...,
+  // Object.setPrototypeOf(target), Reflect.setPrototypeOf(target)
+  setPrototypeOf: ...,
+  // for (let i in target) {}
+  enumerate: ...,
+  // Object.keys(target)
+  ownKeys: ...,
+  // Object.preventExtensions(target)
+  preventExtensions: ...,
+  // Object.isExtensible(target)
+  isExtensible :...
+}
+```
+
+## Reflect
+
+>Proxy 相当于去修改设置对象的属性行为，而 Reflect 则是获取对象的这些行为。
+
+## Symbols
+
+- The `Symbol()` function returns a value of type symbol, has static properties that expose several members of built-in objects, has static methods that expose the global symbol registry, and resembles a built-in object class but is incomplete as a constructor because it does not support the syntax "`new Symbol()`".  
+- Every symbol value returned from `Symbol()` is unique.
+
+```js
+var sym1 = Symbol();
+var sym2 = Symbol('foo');
+var sym3 = Symbol('foo');
+
+Symbol('foo') === Symbol('foo'); // false
+
+var sym = new Symbol(); // TypeError
+
+var sym = Symbol('foo');
+typeof sym;     // "symbol"
+var symObj = Object(sym);
+typeof symObj;  // "object"
+```
+
+## Subclassable Built-ins
+
+```js
+// User code of Array subclass
+class MyArray extends Array {
+    constructor(...args) { super(...args); }
+}
+
+var arr = new MyArray();
+arr[1] = 12;
+arr.length == 2
+```
+
+## Promises
+
+- The `Promise` object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
+
+```js
+function timeout(duration = 0) {
+    return new Promise((resolve, reject) => {
+        setTimeout(resolve, duration);
+    })
+}
+
+var p = timeout(1000).then(() => {
+    return timeout(2000);
+}).then(() => {
+    throw new Error("hmm");
+}).catch(err => {
+    return Promise.all([timeout(100), timeout(200)]);
+})
 ```
 
 ---
