@@ -1,33 +1,37 @@
 # [CPS (Cyber Physical System)](https://www.nist.gov/el/cyber-physical-systems)
 
-#### Terms Glossary
+## Terms Glossary
 
 >CPS作为计算资源和物理资源的统一体，是集成3C（Computation、Communication、Control）技术于一体的下一代智能系统。  
-
+>  
 >CPS是在环境感知的基础上，深度融合计算、通信和控制能力的可控可信可扩展的网络化物理设备系统，它通过计算进程和物理进程相互影响的反馈循环实现深度融合和实时交互来增加或扩展新的功能，以安全、可靠、高效和实时的方式检测或者控制一个物理实体。  
 
-#### Differences in Core Technologies
+## Differences in Core Technologies
 
 - Computation
+
 >计算领域建立在离散数学的基础上，只关心功能的实现。  
+
 - Communication
+
 >通信领域强调分布式应用系统中物理设备之间的协调。  
+
 - Control
+
 >控制领域是通过微分方程和连续的边界条件来处理问题，对时间和空间都十分敏感。  
 
-#### Development History
+## Development History
 
 >于2006年2月发布的《美国竞争力计划》则将信息物理系统(Cyber Physics System，CPS)列为重要的研究项目。  
-
+>  
 >于2007年7月，美国总统科学技术顾问委员会(PCAST)在题为《挑战下的领先--竞争世界中的信息技术研发》的报告中列出了八大关键的信息技术，其中CPS位列首位，其余分别是软件、数据、数据存储与数据流、网络、高端计算、网络与信息安全、人机界面、NIT与社会科学。  
-
+>  
 >欧盟从2007年到2013年在嵌入智能与系统的先进研究与技术(ARTMEIS)上投入54亿欧元(超过70亿美元)，以保证其成为智能电子系统的世界领袖。  
 
-
-#### Significance
+## Significance
 
 >"如同互联网改变了人与人的互动一样，CPS将会改变我们与物理世界的互动。"美国国家科学基金会(NSF)计算机与信息科学和工程总监Branicky表示。  
-
+>  
 >"下一代工业将建立在CPS之上，随着CPS技术的发展和普及，使用计算机和网络实现功能扩展的物理设备无处不在，并将推动工业产品和技术的升级换代，极大地提高汽车、航空航天、国防、工业自动化、健康/医疗设备、重大基础设施等主要工业领域的竞争力。"[何积丰]院士表示，"CPS不仅会催生出新的工业，甚至会重新排列现有产业布局。"  
 
 [何积丰]:https://baike.baidu.com/item/%E4%BD%95%E7%A7%AF%E4%B8%B0/5754260?fr=aladdin
