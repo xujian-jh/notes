@@ -1,8 +1,8 @@
 # Hardware Virtualization
 
-## Hypervisor
+## Hypervisor (Virtual Machine management software)
 
-- Virtual Machine management software
+>VMware在Hypervisor领域处于垄断地位  
 
 ```ps
                                         +-----+-----+-----+-----+-----+
@@ -21,12 +21,24 @@
 ```
 
 - Type I
-  - VMware ESXi (operating system)
+  - VMware ESXi (operating system base on Linux core)
   - Xen in Linux
   - Hyper-V in Windows
 - Type Ⅱ
   - VMware Workstation
   - Virtual Box
+
+## VSphere (VMware virtualization platform)
+
+![VSphere](./VSphere.jpg)
+
+>ESXI就是一个宿主机，可以创建多个虚拟机  
+>  
+>多台ESXI主机组成集群  
+>  
+>多个集群组成一个数据中心  
+>  
+>Vcenter既可以管理集群，也可以管理数据中心  
 
 ## KVM (Kernel-based Virtual Machine)
 
