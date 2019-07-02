@@ -26,6 +26,8 @@
 - The Linux Kernel
 - The GNU Software (GNU General Public License，GPL)
 
+![Linux](./Linux.jpg)
+
 ## [The Linux distribution] (non-commercial or commercial)
 
 The Linux Kernel + Utilities = The Linux distribution (GNU/Linux distributions)
