@@ -23,6 +23,3 @@ sudo mv electronic-wechat-linux-x64/ /opt/electronic-wechat-linux-x64
 ```s
 sudo ln -s /opt/electronic-wechat-linux-x64/electronic-wechat /usr/bin/electronic-wechat
 ```
-
-## 在桌面创建软链接
-
