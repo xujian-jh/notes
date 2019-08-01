@@ -205,3 +205,8 @@ npm run dev:backend
 ```s
 npm run dev:front
 ```
+
+## 问题
+
+1. 数据库怎么安装？如何工作？
+2. 进入后台管理页面是啥意思？
