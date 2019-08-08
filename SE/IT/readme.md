@@ -8,6 +8,11 @@
   - 软技术技术先进。
   - 软技术效果好。
 
+## On-Premises IaaS PaaS SaaS
+
+![comparison](./iaas-paas-saas-comparison-1024x759.jpg
+)
+
 ---
 
 [IT]:https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/138928?fr=aladdin

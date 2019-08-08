@@ -1,6 +1,6 @@
 # [Command line quick tips: More about permissions]
 
-## Symbolic and octal
+## Symbolic and octal (111)
 
 - r = 4
 - w = 2
@@ -20,16 +20,17 @@ chmod u=rw,g=r,o=r myfile1
 chmod 644 myfile1
 ```
 
-## Special permission bits
+## Special permission bits (111)
+
+There are more than nine bits assigned permissions. In fact, there are 12 bits.
 
 - setuid (or suid) = 4
-  - forceing `Execute (x)` , the permission of the user
-  - A good example of setuid is the /bin/passwd utility, which allows a user to set or change passwords. This utility must be able to write to files no user should be allowed to change.
+  - gives temporary permissions to act as the owner.
+  - a good example of setuid is the /bin/passwd utility, which allows a user to set or change passwords. This utility must be able to write to files no user should be allowed to change.
 - setgid (or sgid) = 2
-  - forceing `Execute (x)` , the permissions of the group
+  - gives temporary permissions to act as a member of that group.
 - sticky bit (or delete inhibit) = 1
-  - prevent `Execute (x)` , the permission of non-owner users.
-  - The sticky bit set on a directory will prevent a user from deleting files in that directory owned by other users.
+  - it ensures that only the owner is able to delete or rename the file or directory.
 
 1. The way to set these bits with chmod in octal mode is to add a value prefix, such as `4755` to add setuid to an executable file.
 2. In symbolic mode, the u and g can be used to set or remove setuid and setgid, such as `u+s`,`g+s`. The sticky bit is set using `o+t`.
