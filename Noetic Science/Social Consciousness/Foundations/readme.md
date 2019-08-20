@@ -1,6 +1,6 @@
-# [Jonathan Haidt] 
+# [Jonathan Haidt]
 
-#### [The Righteous Mind] focused on the [moral foundations] of politics, and on ways to transcend the “culture wars” by using recent discoveries in moral psychology to foster more [civil forms of politics]. 
+## [The Righteous Mind] focused on the [moral foundations] of politics, and on ways to transcend the “culture wars” by using recent discoveries in moral psychology to foster more [civil forms of politics]
 
 Foundation|Meaning|Opposite
 -|-|-
@@ -13,7 +13,7 @@ Liberty|Freedom from coercion by a dominating power or person|Oppression
 
 Once you understand these foundations you can start to see the tie that binds the whole human race together. You see both the Liberal and Conservative responses. The same moral foundation manifesting differently. Not inherently wrong, just different.
 
-#
+---
 
 [Jonathan Haidt]:http://people.stern.nyu.edu/jhaidt/
 
