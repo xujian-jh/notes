@@ -1,4 +1,4 @@
-# command
+# Command line quick tips
 
 ## Not root user command `$`
 
