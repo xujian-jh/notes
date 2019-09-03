@@ -1,10 +1,11 @@
 # C. G. Jung
 
-- It is an extension of the individual. To study it is to deepen the self.
-- All new discoveries have at one stage been called dangerous, and all new philosophies have been deemed heresies.
-  - It is as though we would once more consign radium to its dust-heaps, lest some day the new radiancy should over-power mankind.
-- Indeed this particular thing has proved at once most dangerous and most precious.
-- Man must learn to use his treasure, and in using it to submit to its own laws, which can only become known when it is handled and investigated.
+- Jung's Analytical Psychology is also a total personality structure theory.
+  - It is an extension of the individual. To study it is to deepen the self.
+  - All new discoveries have at one stage been called dangerous, and all new philosophies have been deemed heresies.
+    - It is as though we would once more consign radium to its dust-heaps, lest some day the new radiancy should over-power mankind.
+  - Indeed this particular thing has proved at once most dangerous and most precious.
+  - Man must learn to use his treasure, and in using it to submit to its own laws, which can only become known when it is handled and investigated.
 
 ## [Collected Papers on Analytical Psychology]
 
