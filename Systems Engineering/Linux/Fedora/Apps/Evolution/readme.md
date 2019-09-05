@@ -1,5 +1,7 @@
 # [Evolution]
 
+Evolution is a personal information management application that provides integrated mail, calendaring and address book functionality.
+
 ## Evolution Accounts Configuration wizard
 
 ![1](./1.png)
