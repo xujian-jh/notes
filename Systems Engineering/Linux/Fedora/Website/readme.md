@@ -34,7 +34,7 @@
 1. <https://openjsf.org/>
 2. <https://nodejs.org/en/>
 3. <https://koajs.com/>
-4. <https://cabloy.com/zh-cn/index.html>
+4. <https://cabloy.com/zh-cn/>
 
 ## CNCF
 
