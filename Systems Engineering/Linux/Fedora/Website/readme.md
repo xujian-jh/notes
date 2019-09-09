@@ -12,6 +12,9 @@
 1. <https://www.kernel.org>
 2. <https://www.linuxfoundation.org>
 3. <https://getfedora.org/>
+4. <https://fedoramagazine.org>
+5. <https://fedoraproject.org/wiki/Fedora_Project_Wiki>
+6. <https://docs.fedoraproject.org/en-US/docs/>
 
 ## education
 
@@ -31,6 +34,7 @@
 1. <https://openjsf.org/>
 2. <https://nodejs.org/en/>
 3. <https://koajs.com/>
+4. <https://cabloy.com/zh-cn/index.html>
 
 ## CNCF
 
@@ -49,3 +53,8 @@
 2. <https://oa.tech-new.cn/login/Login.jsp?logintype=1>
 3. <http://jhmes.zotye.com/nav.jsp>
 4. <http://jhportal.zotye.com/portal>
+
+## google
+
+1. <https://translate.google.cn/?hl=zh-CN>
+2. <https://www.google.cn/chrome/>
