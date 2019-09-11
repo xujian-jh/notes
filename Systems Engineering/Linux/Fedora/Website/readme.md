@@ -45,7 +45,8 @@
 
 1. <https://www.khronos.org/webgl/>
 2. <https://www.web3d.org/>
-3. <https://threejs.org/>
+3. <https://www.x3dom.org/>
+4. <http://create3000.de/x_ite/getting-started/>
 
 ## zotye
 
