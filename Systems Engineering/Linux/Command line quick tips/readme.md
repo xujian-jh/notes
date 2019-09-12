@@ -8,6 +8,17 @@
 uname -r
 ```
 
+- Delete Files
+  - `-f` : Forced without any prompts
+
+```s
+rm -f fileName
+```
+
+- Delete folders and all files in the folder
+  - `-r` : Recursive downward
+  - `-f` : Forced without any prompts
+
 ### The SSH keys
 
 - Query the SSH keys
