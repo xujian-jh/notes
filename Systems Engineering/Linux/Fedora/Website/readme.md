@@ -59,3 +59,6 @@
 
 1. <https://translate.google.cn/?hl=zh-CN>
 2. <https://www.google.cn/chrome/>
+3. <https://github.com/google>
+4. <https://google.github.io/eng-practices/>
+5. <https://github.com/google/blockly-games>
