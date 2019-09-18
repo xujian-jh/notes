@@ -57,8 +57,13 @@
 
 ## google
 
-1. <https://translate.google.cn/?hl=zh-CN>
-2. <https://www.google.cn/chrome/>
-3. <https://github.com/google>
-4. <https://google.github.io/eng-practices/>
-5. <https://github.com/google/blockly-games>
+1. <https://www.google.cn/chrome/>
+2. <https://github.com/google>
+3. <https://google.github.io/eng-practices/>
+4. <https://github.com/google/blockly-games>
+
+## Dictionary
+
+1. <https://www.oxfordlearnersdictionaries.com/>
+2. <https://translate.google.cn/?hl=zh-CN>
+3. <https://fanyi.baidu.com/>
