@@ -1,4 +1,8 @@
-# THE BOOKS OF KAHLIL GIBRAN
+# [KAHLIL GIBRAN]
+
+Though he considered himself to be mainly a painter, lived most of his life in the United States, and wrote his best-known works in English, Kahlil Gibran was the key figure in a Romantic movement that transformed Arabic literature in the first half of the twentieth century.
+
+## THE BOOKS OF KAHLIL GIBRAN
 
 - [The Madman]. 1918
 - [Twenty Drawings]. 1919
@@ -21,6 +25,8 @@ A collection of poems and parables, some translated by him for his own works in 
 His poetry is a blend of ancient imagery coupled with the poignant irony of modern introspection.
 
 ---
+
+[KAHLIL GIBRAN]:https://www.poetryfoundation.org/poets/kahlil-gibran
 
 [The Madman]:http://www.gutenberg.org/files/5616/5616-h/5616-h.htm
 
