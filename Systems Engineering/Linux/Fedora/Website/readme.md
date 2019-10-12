@@ -56,7 +56,7 @@
 
 1. <http://jhftp.zotye.com:8888/?Command=Login&Language=zh,CN>
 2. <https://oa.tech-new.cn/login/Login.jsp?logintype=1>
-3. <http://jhmes.zotye.com/nav.jsp>
+3. <http://172.20.82.1:8888/ZOTYE/nav.jsp> TEST
 4. <http://jhportal.zotye.com/portal>
 
 ## google
