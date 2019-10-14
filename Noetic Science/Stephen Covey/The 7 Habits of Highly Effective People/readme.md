@@ -35,8 +35,6 @@ Kuhn used the duck-rabbit optical illusion, made famous by Wittgenstein, to demo
 
 ## The Character Ethic
 
-
-
 ## The Maturity Continuum
 
 Covey also introduces the Maturity Continuum. These are three successive stages of increasing maturity: dependence, independence, and interdependence.
@@ -63,8 +61,6 @@ The first three habits surround moving from dependence to independence (i.e., se
 - Grow and stay humble.
 
 ### 3. Put first things first
-
-- 
 
 ---
 
