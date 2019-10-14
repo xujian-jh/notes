@@ -4,11 +4,38 @@ The 7 Habits of Highly Effective People, first published in 1989, is a business 
 
 ## The P/PC Balance
 
+![the-p-pc-balance](./the-p-pc-balance.jpg)
 
+Do you remember Aesop’s fable of the goose and the golden egg?
 
-## The concept of paradigm shift
+One morning a farmer finds a glittering, golden-colored egg sitting beneath his goose. At first he thinks it is a prank, but he decides to have the egg appraised just in case.  
+To the farmer’s amazement, the egg is pure gold!
+And each morning his prize goose continues laying the valuable eggs.  
+The farmer becomes extremely wealthy. But he also becomes greedy and impatient.  
+One day in his frustration the farmer kills the goose, hoping to get all of the golden eggs at once from inside the goose.  
+As we all know, the farmer finds nothing. And now, he has neither a goose nor any more golden eggs.
+
+Aesops fable shows us that true effectiveness is a function of two things: What is produced (golden eggs) and the producing asset or capacity to produce (the goose).
+
+The P/PC balance is all about balancing the two extremes:
+
+- Extreme #1: Focusing only on golden eggs or producing short-term results. In the long-run, you lose your ability to produce results at all because you never nurture your production capacity.
+- Extreme #2: Focusing only on the goose or production capacity. Without short-term results, you will not survive (literally or figuratively) to see the long-term payoff.
+
+The goal is to balance these two extremes. Because being only in one of the two extremes is disastorous. Effectiveness lies in the balance between P and PC. It balances short term with long term.
+
+## Paradigm and paradigm shift
 
 Covey introduces the concept of paradigm shift and helps the reader understand that different perspectives exist, i.e. that two people can see the same thing and yet differ with each other.
+
+Kuhn presented his notion of a paradigm shift in his influential book The Structure of Scientific Revolutions (1962).  
+Kuhn used the duck-rabbit optical illusion, made famous by Wittgenstein, to demonstrate the way in which a paradigm shift could cause one to see the same information in an entirely different way.
+
+![Duck-Rabbit_illusion](./Duck-Rabbit_illusion.jpg)
+
+## The Character Ethic
+
+
 
 ## The Maturity Continuum
 
@@ -18,7 +45,7 @@ Covey also introduces the Maturity Continuum. These are three successive stages 
 - Independence means you are pretty much free from the external influence and support of others. ... Independence is the attitude of "I". ... It is the avowed goal of many individuals, and also many social movements, to enthrone independence as the highest level of achievement, but it is not the ultimate goal in effective living. There is a far more mature and more advanced level.
 - The third and highest level in the Maturity Continuum is interdependence. ... We live in an interdependent reality. Interdependence is essential for good leaders; good team players; a successful marriage or family life; in organizations. Interdependence is the attitude of "we": we can co-operate; we can be a team; we can combine our talents.
 
-## The first three habits surround moving from dependence to independence (i.e., self-mastery)
+The first three habits surround moving from dependence to independence (i.e., self-mastery)
 
 ### 1. Be proactive
 
