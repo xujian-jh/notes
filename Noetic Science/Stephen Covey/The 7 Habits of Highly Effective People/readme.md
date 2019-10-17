@@ -69,20 +69,52 @@ Covey also introduces the Maturity Continuum. These are three successive stages 
 
 The first three habits surround moving from dependence to independence (i.e., self-mastery)
 
-### 1. Be proactive
+### 1. Be Proactive, Not Reactive
 
-- Take responsibility for your reaction to your experiences, take the initiative to respond positively and improve the situation.
+For the Stoics, life was governed by a Dichotomy of Control. There are things you have no control over (Circle of Concern), and things you have some or complete control over (Circle of Influence). To live a good, tranquil, and flourishing life, the Stoic adherent strives to accept the reality of the former, while focusing his attention on the latter.
+
+![Circle-of-Concern-Influence](./Circle-of-Concern-Influence.jpg)
+
+- “Between stimulus and response there is a space. In that space is our power to choose our response,” wrote Frankl in his seminal book, Man’s Search for Meaning.
 - Recognize your Circle of Influence and Circle of Concern.
-- Focus your responses and initiates on the center of your influence and constantly work to expand it.
+
+![Reactive-Focus](./Reactive-Focus.jpg)
+
 - Don't sit and wait in a reactive mode, waiting for problems to happen (Circle of Concern) before taking action.
+- When you focus on your Circle of Concern, your Circle of Influence shrinks.
 
-### 2. Begin with the end in mind
+When we focus on things over which we don’t have any control, it stresses us out. A bit of stress during uncertain times can act as a positive way to prepare your mind and body for performance. But if you’re stressed out about uncertainty all the time, then not-so-good changes start to happen in your brain that create a vicious cycle of reactive anxiety. Chronic stress can cause your amygdala — the alarm system of your brain — to get larger, which in turn causes you to be more sensitive and reactive to your environment, making you more vulnerable to anxiety, anger, and fear. What’s more, chronic stress can blunt executive function, which makes it harder for you to accurately judge between actual and phony threats. To top it off, chronic stress blunts dopamine production, which our brains need to stay motivated to take action.
 
-- Envision what you want in the future so you can work and plan towards it.
-- Understand how people make decisions in their life.
-- To be effective you need to act based on principles and constantly review your mission statement. Are you - right now - who you want to be? What do I have to say about myself? How do you want to be remembered?
+So in a literal way, focusing on your Circle of Concern causes it to expand and your Circle of Influence to shrink. The stress that comes from spending your energy and attention on your Circle of Concern primes your brain to see more problems than solutions, reduces your ability to figure out what is and isn’t in your control, and blunts motivation to take action on the things you do have influence over. It’s a vicious cycle.
+
+![Proactive-Focus](./Proactive-Focus.jpg)
+
+- When you focus on your Circle of Influence, it expands.
+- Focus your responses and initiates on the center of your influence and constantly work to expand it.
+
+### 2. Begin With the End in Mind
 
 If habit 1 advises changing your life to act and be proactive, habit 2 advises that you are the programmer! Grow and stay humble.
+
+The end product isn’t as important as the process. As Covey explains, “writing a mission statement changes you because it forces you to think through your priorities deeply, carefully, and to align your behavior with your beliefs.”
+
+So as you work through the steps outlined below, don’t get discouraged if you think it’s taking too long or isn’t going exactly how you wanted. In those moments when you feel like giving up, just focus on the process. Remember, the important thing is that you’re intentionally thinking about what it means to live the good life. This is a lifelong, internal discussion you’ll be having with yourself.
+
+#### Résumé Virtues Vs. Eulogy Virtues
+
+Writer David Brooks insightfully observes that there are two types of virtues: résumé virtues and eulogy virtues. In [The Road to Character], he explains the difference between them:
+
+“The résumé virtues are the ones you list on your résumé, the skills that you bring to the job market and that contribute to external success. The eulogy virtues are deeper. They’re the virtues that get talked about at your funeral, the ones that exist at the core of your being—whether you are kind, brave, honest or faithful; what kind of relationships you formed.”
+
+#### Living Life by Your Own Script: Writing Your Personal Constitution
+
+Scripts are default goals and values handed to us by our social system — they arise from family, peers, school, advertisements, pop culture, and more. Everywhere we look there are people or organizations trying to influence us on how we should live and what we should value. These scripts are what causes us to “should on ourselves” and to participate in status competitions that deep down we don’t even care about. It’s what leads us to accomplish a lot, but feel like we’ve lived a life devoid of significance.
+
+Here’s an example of a script that most of us have experienced: You need to get good grades in school.
+
+Why? Well, we’re going to say it’s so we learn things and become better humans, but we know the real reason we want to get good grades is so we can get into a good college. And you get into a good college so you can get a good job that pays well and has health insurance and a 401K so you can buy a house and a car and take nice vacations with your family.
+
+Those goals aren’t “bad,” but you’ve probably adopted them mindlessly, and you’ll end up pursuing them merely as things to knock off on a checklist, without thought as to whether they’re what you want, and what difference they’ll make in your character — in who you want to be. Your “why” for getting good grades covers the attainment of externalities, but has no deeper purpose, no connection to your inner world. Consequently, school isn’t very satisfying, and even if your success with it leads to a good job, and a nice family, and a house in the burbs, none of those things will feel particularly fulfilling either.
 
 ### 3. Put first things first
 
@@ -115,13 +147,15 @@ Combine the strengths of people through positive teamwork, so as to achieve goal
 
 The final habit is that of continuous improvement in both the personal and interpersonal spheres of influence.
 
-### 7. Sharpen the Saw; Growth
+### 7. Sharpen the Saw
 
-Covey explains the "Upward Spiral" model.
-
-- Through our conscience, along with meaningful and consistent progress, the spiral will result in growth, change, and constant improvement.
-- In essence, one is always attempting to integrate and master the principles outlined in The 7 Habits at progressively higher levels at each iteration. Subsequent development on any habit will render a different experience and you will learn the principles with a deeper understanding.
+- Sharpening the Saw is about taking the time to renew and refresh the four dimensions of our natures (physical, spiritual, mental, and social/emotional) so that we’re more effective in our life’s work.
+  - It’s about regularly investing in ourselves so that we can reap dividends on a continual basis.
+  - It means  working smarter, not harder.
+- Sharpening the Saw is what 21st-century lifestyle bloggers would call “self-care,” and while that term has become overused and annoying, there’s really something to it.
 
 ---
 
 [The 7 Habits of Highly Effective People]:https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People
+
+[The Road to Character]:https://en.wikipedia.org/wiki/The_Road_to_Character
