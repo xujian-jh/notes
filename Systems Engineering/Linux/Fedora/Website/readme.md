@@ -25,7 +25,6 @@
 2. <https://ctext.org/zhs>
 3. <https://plato.stanford.edu/>
 4. <https://www.iep.utm.edu/>
-5. <https://www.poetryfoundation.org/>
 
 ## git
 

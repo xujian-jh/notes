@@ -122,13 +122,17 @@ Those goals aren’t “bad,” but you’ve probably adopted them mindlessly, a
 
 ### 3. Put first things first
 
+Effective leadership is putting first things first. Effective management is discipline, carrying it out.
+
+![quadrant](./quadrant.png)
+
 - Time Management Matrix: The 4 Quadrants
   - Quadrant I. Urgent and important (Do) : important deadlines and crises
   - Quadrant II. Not urgent but important (Plan) : long-term development
   - Quadrant III. Urgent but not important (Delegate) : distractions with deadlines
   - Quadrant IV. Not urgent and not important (Eliminate): frivolous distractions
 
-If habit 2 advises that you are the programmer, habit 3 advises: write the program, become a leader! Keep personal integrity: what you say vs what you do.
+If habit 2 advises that you are the programmer, habit 3 advises: write the program, become a leader! Keep personal integrity: what you say vs what you do. Your most important work is always ahead of you, never behind you.
 
 ## Interdependence
 
@@ -138,7 +142,11 @@ Covey calls them the “habits of public victory”. The Public Habits Are “Un
 
 ### 4. Think Win/Win
 
-Covey believes that the Win/Win dynamic is the one we should strive for most, since it’s the only one in which you get what you want and you strengthen the long-term health of a relationship.
+When one side benefits more than the other, that's a win-lose situation. To the winner it might look like success for a while, but in the long run, it breeds resentment and distrust.
+
+In the long run, if it isn't a win for both of us, we both lose. That's why win-win is the only real alternative in interdependent realities.
+
+To go for win-win, you not only have to be empathic, but you also have to be confident. You not only have to be considerate and sensitive, you also have to be brave. To do that--to achieve that balance between courage and consideration--is the essence of real maturity and is fundamental to win-win.
 
 - How Seeking Win/Win Relationships Develops Your Maturity?
   - Develops your humility.
@@ -148,6 +156,10 @@ Covey believes that the Win/Win dynamic is the one we should strive for most, si
   - Offers a grown-up challenge.
 
 ### 5. Seek first to understand, then to be understood
+
+If I were to summarize in one sentence the single most important principle I have learned in the field of interpersonal relations, it would be this: Seek first to understand, then to be understood.
+
+![seek-2](./seek-2.jpg)
 
 All of us gaze out at the world through the eyeholes of our own personal perspective — a filter so fixed and all-pervasive that we hardly realize it exists.
 
@@ -163,16 +175,24 @@ Covey wants us to value other people’s opposing opinions. He mentions early in
 
 The problem with this is it means well and truly parking your ego. That means having true control over your emotions. You are going to be in situations where you are really sure you have the correct answer but other people say you don’t. Can you embrace their point of view? Can you keep your emotions under control to understand before being understood?
 
+![synergy](./synergy.jpg)
+
+Valuing differences is what really drives synergy. Differences should be seen as strengths, not weaknesses. They add zest to life.
+
 ## Continual improvement
 
 The final habit is that of continuous improvement in both the personal and interpersonal spheres of influence.
 
 ### 7. Sharpen the Saw
 
+- Sharpen the Saw means preserving and enhancing the greatest asset you have--you.
 - Sharpening the Saw is about taking the time to renew and refresh the four dimensions of our natures (physical, spiritual, mental, and social/emotional) so that we’re more effective in our life’s work.
-  - It’s about regularly investing in ourselves so that we can reap dividends on a continual basis.
-  - It means  working smarter, not harder.
-- Sharpening the Saw is what 21st-century lifestyle bloggers would call “self-care,” and while that term has become overused and annoying, there’s really something to it.
+  - Physical: Beneficial eating, exercising, and resting.
+  - Spiritual: Spending time in nature, expanding spiritual self through meditation, music, art, prayer, or service.
+  - Mental: Learning, reading, writing, and teaching.
+  - Social/Emotional: Making social and meaningful connections with others.
+- Renewal is the principle—and the process—that empowers us to move on an upward spiral of growth and change, of continuous improvement.
+- We must never become too busy sawing to take time to sharpen the saw.
 
 ---
 
