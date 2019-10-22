@@ -67,7 +67,11 @@ Covey also introduces the Maturity Continuum. These are three successive stages 
 
 ## Independence
 
-The first three habits surround moving from dependence to independence (i.e., self-mastery)
+The first three habits surround moving from dependence to independence (i.e., self-mastery).
+
+Covey calls them the “habits of private victory”.
+
+Seek to Order Yourself First, Before You Seek to Order the World.
 
 ### 1. Be Proactive, Not Reactive
 
@@ -118,10 +122,11 @@ Those goals aren’t “bad,” but you’ve probably adopted them mindlessly, a
 
 ### 3. Put first things first
 
-- Quadrant I. Urgent and important (Do) : important deadlines and crises
-- Quadrant II. Not urgent but important (Plan) : long-term development
-- Quadrant III. Urgent but not important (Delegate) : distractions with deadlines
-- Quadrant IV. Not urgent and not important (Eliminate): frivolous distractions
+- Time Management Matrix: The 4 Quadrants
+  - Quadrant I. Urgent and important (Do) : important deadlines and crises
+  - Quadrant II. Not urgent but important (Plan) : long-term development
+  - Quadrant III. Urgent but not important (Delegate) : distractions with deadlines
+  - Quadrant IV. Not urgent and not important (Eliminate): frivolous distractions
 
 If habit 2 advises that you are the programmer, habit 3 advises: write the program, become a leader! Keep personal integrity: what you say vs what you do.
 
@@ -129,11 +134,22 @@ If habit 2 advises that you are the programmer, habit 3 advises: write the progr
 
 The next three habits are intended to help achieve interdependence.
 
-### 4. Think win-win
+Covey calls them the “habits of public victory”. The Public Habits Are “Unsexy,” But Critical. The reality is that our success in life isn’t purely an individual effort. So while personal initiative is necessary for success, it’s not sufficient. Our relationships (and a bit of luck) are the other critical part of the equation.
 
-Value and respect people by understanding a "win" for all is ultimately a better long-term resolution than if only one person in the situation had gotten their way. Think Win-Win isn't about being nice, nor is it a quick-fix technique. It is a character-based code for human interaction and collaboration.
+### 4. Think Win/Win
+
+Covey believes that the Win/Win dynamic is the one we should strive for most, since it’s the only one in which you get what you want and you strengthen the long-term health of a relationship.
+
+- How Seeking Win/Win Relationships Develops Your Maturity?
+  - Develops your humility.
+  - Recognizes the full humanity of others.
+  - Requires a long-term perspective.
+  - Requires becoming assertive.
+  - Offers a grown-up challenge.
 
 ### 5. Seek first to understand, then to be understood
+
+All of us gaze out at the world through the eyeholes of our own personal perspective — a filter so fixed and all-pervasive that we hardly realize it exists.
 
 Use empathetic listening to genuinely understand a person, which compels them to reciprocate the listening and take an open mind to be influenced by you. This creates an atmosphere of caring, and positive problem-solving.
 
