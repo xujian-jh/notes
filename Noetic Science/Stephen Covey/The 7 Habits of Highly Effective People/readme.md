@@ -157,7 +157,11 @@ The order is important: ethos, pathos, logos -- your character, and your relatio
 
 ### 6. Synergize
 
-Combine the strengths of people through positive teamwork, so as to achieve goals that no one could have done alone.
+The definition of synergy used in the book is “the whole is greater than the sum of its parts.” Stephen Covey states that the results you will get by using the first 5 habits together are far greater than you would get using each habit independently. Combine the strengths of people through positive teamwork, so as to achieve goals that no one could have done alone.
+
+Covey wants us to value other people’s opposing opinions. He mentions early in the book that we all have different frames of reference. To obtain synergy in our endeavors we need to seek out frames of reference that differ from ours and embrace them.
+
+The problem with this is it means well and truly parking your ego. That means having true control over your emotions. You are going to be in situations where you are really sure you have the correct answer but other people say you don’t. Can you embrace their point of view? Can you keep your emotions under control to understand before being understood?
 
 ## Continual improvement
 
