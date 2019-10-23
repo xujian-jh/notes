@@ -1,6 +1,6 @@
 # [Node.js]
 
-```
+```bash
 sudo dnf install nodejs
 ```
 
