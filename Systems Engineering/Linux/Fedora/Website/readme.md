@@ -65,3 +65,11 @@
 3. <https://myaccount.google.com/>
 4. <https://google.github.io/eng-practices/>
 5. <https://github.com/google/>
+
+## h5game
+
+1. <https://js13kgames.com/#winners>
+
+## tool
+
+1. <https://leopathu.com/verify-email>
