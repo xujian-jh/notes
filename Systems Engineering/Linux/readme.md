@@ -26,15 +26,9 @@
 
 ![Linux](./Linux.jpg)
 
-## [The Linux distribution] (non-commercial or commercial)
+## [Usage share of operating systems]
 
-The Linux Kernel + Utilities = The Linux distribution (GNU/Linux distributions)
-
-- embeddable
-- server
-- desktop
-
-### Current learning Linux distribution: Fedora
+### Current learning Linux distribution: [Fedora Server]
 
 ---
 
@@ -47,3 +41,7 @@ The Linux Kernel + Utilities = The Linux distribution (GNU/Linux distributions)
 [Free Software]:http://www.gnu.org/philosophy/free-sw.html
 
 [Common Misunderstandings of “Free Software” and “Open Source”]:http://www.gnu.org/philosophy/open-source-misses-the-point.en.html
+
+[Usage share of operating systems]:https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Servers_on_the_Internet
+
+[Fedora Server]:https://getfedora.org/en/server/
