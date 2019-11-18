@@ -1,0 +1,5 @@
+# [Synergetics]
+
+---
+
+[Synergetics]:
