@@ -17,7 +17,7 @@
 
 P（μ-7.5σ＜x＜μ+4.5σ｜x~N（μ, σ2）) ＝0.9999966
 
-![sigma_level_vs_DPMO_defects_per_million_opportunities](./sigma_level_vs_DPMO_defects_per_million_opportunities.jpg)
+![6σ-levels.png](./6σ-levels.png)
 
 - The more number of standard deviations between process average and acceptable process limits fits, the less likely that the process performs beyond the acceptable process limits, and it causes a defect.
   - This is the reason why a 6σ (Six Sigma) process performs better than 1σ, 2σ, 3σ, 4σ, 5σ processes.
@@ -35,25 +35,23 @@ P（μ-7.5σ＜x＜μ+4.5σ｜x~N（μ, σ2）) ＝0.9999966
   - Suitable for complex systems, not simple systems
   - A tactical tool, not a strategic tool
 
-### History: Quality Movement
+### History: Quality control (QC)
 
-- [PDCA] from the 1950s
-  - PDCA (plan–do–check–act) is an iterative four-step management method used in business for the control and continuous improvement of processes and products.
-  - Another version of this PDCA cycle is OPDCA.
-    - The added "O" stands for observation or as some versions say: "Observe the current condition."
-    - This emphasis on observation and current condition has currency with the literature on lean manufacturing and the Toyota Production System.
-  - It is also known as the Deming cycle, the Shewhart cycle, the control cycle.
-  - PDCA was made popular by W. Edwards Deming.
-    - Later in Deming's career, he modified PDCA to "Plan, Do, Study, Act" (PDSA) because he felt that "check" emphasized inspection over analysis.
-- TQC (Total Quality Control) from the 1960s
-  - TQC was made popular by Armand Vallin Feigenbaum.
-- [TQM] from the 1980s
+- Statistical quality control (SQC) since 1930s.
+  - The application of statistical methods (specifically control charts and acceptance sampling) to quality control.
+- Total quality control (TQC) since 1956.
+  - Popularized by Armand V. Feigenbaum in a Harvard Business Review article and book of the same name; stresses involvement of departments in addition to production (e.g., accounting, design, finance, human resources, marketing, purchasing, sales).
+- Statistical process control (SPC) since 1960s.
+  - The use of control charts to monitor an individual industrial process and feed back performance to the operators responsible for that process; inspired by control systems.
+- Company-wide quality control (CWQC) since 1968.
+  - Japanese-style total quality control.
+- Total quality management (TQM) since 1985.
+  - US-style total quality control.
+- Six Sigma (6σ) since 1986.
+  - Statistical quality control applied to business strategy.
+- Lean Six Sigma (L6σ) since 2001.
+  - Six Sigma applied with the principles of lean manufacturing.
 
 ---
 
 [6σ]:https://www.sixsigma-institute.org/What_Is_Sigma_And_Why_Is_It_Six_Sigma.php
-
-[PDCA]:https://en.wikipedia.org/wiki/PDCA
-
-[TQM]:https://en.wikipedia.org/wiki/Total_quality_management
-
