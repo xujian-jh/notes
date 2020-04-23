@@ -4,13 +4,13 @@ See [gittutorial] to get started, then see [giteveryday] for a useful minimum se
 
 ## Useful minimum set of commands for git
 
-```
-$ git config --global user.name "xujian"
-$ git config --global user.email "xujian-jh@outlook.com"
+```bash
+git config --global user.name "xujian"
+git config --global user.email "xujian-jh@outlook.com"
 ```
 
-```
-$ git clone https://github.com/xujian-jh/notes.git
+```bash
+git clone https://github.com/xujian-jh/notes.git
 ```
 
 ---
